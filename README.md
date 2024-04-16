@@ -2,7 +2,7 @@
 www.alfredwashburn.org
 
 lend a hand (bounties sponsored by CRL)
-* $200 Jupyter notebook build system to turn this site back into templates: check scratch vs dict
+* $200 Jupyter notebook build system to turn this site back into templates: check scratch vs dist
 
 
 # keep it simple, this is volunteer!
