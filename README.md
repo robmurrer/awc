@@ -1,7 +1,9 @@
 # awc - alfred-washburn center website
 www.alfredwashburn.org
 
-lend a hand
+lend a hand (bounties sponsored by CRL)
+* $200 Jupyter notebook build system to turn this site back into templates: check scratch vs dict
+
 
 # keep it simple, this is volunteer!
 
