@@ -1,3 +1,10 @@
+# 1 "index.html"
+# 1 "<built-in>" 1
+# 1 "<built-in>" 3
+# 369 "<built-in>" 3
+# 1 "<command line>" 1
+# 1 "<built-in>" 2
+# 1 "index.html" 2
 <!DOCTYPE html>
 <html lang="en" class="">
 
@@ -20,7 +27,20 @@
                 <img id="paypal_button" alt="PayPal - The safer, easier way to pay online!" name="submit" src="https://awc-heroku.s3.amazonaws.com/static/img/paypal.jpg" type="image">
             </a>
 
-#include "nav.html"
+
+# 1 "./nav.html" 1
+<nav id="nav">
+    <ul>
+        <li><a href="/" id="nav-home">Home</a></li>
+        <li><a href="/donate/" id="nav-donate">Donate</a></li>
+        <li><a href="/volunteer/" id="nav-volunteer">Volunteer</a></li>
+        <li><a href="/partners/" id="nav-partners">Partners</a></li>
+        <li><a href="/news/" id="nav-news">News</a></li>
+        <li><a href="/about/" id="nav-about">About</a></li>
+        <li><a href="/contact/" id="nav-contact">Contact</a></li>
+    </ul>
+</nav>
+# 24 "index.html" 2
 
         </header>
 
@@ -33,14 +53,22 @@
 
         <div id="content">
 
-#include "page_content.html"
+
+# 1 "./page_content.html" 1
+page_content
+
+# 37 "index.html" 2
 
 
         </div><!-- /content -->
 
         <aside id="sidebar">
 
-#include "page_sidebar.html"
+
+# 1 "./page_sidebar.html" 1
+page_sidebar
+
+# 44 "index.html" 2
 
         </aside>
 
