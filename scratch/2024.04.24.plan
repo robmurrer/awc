@@ -3,3 +3,5 @@
 
 
 all #define includes should be valid xml (one parent) closed
+
+ cpp index.html | sed '/^#/d' > index_test.html
