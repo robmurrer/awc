@@ -1,3 +1,12 @@
+# 05.06 - lets just do it
+
+* rpp_build (directory structure)
+** config
+** dist
+** sitemap
+** static
+** templates
+
 # 04.25
 * don't like the tag seperations
 * define snippets
