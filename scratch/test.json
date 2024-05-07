@@ -1,0 +1,97 @@
+{
+    "name": "Simple Poker",
+    "deck": {
+        "suits": [
+            "hearts",
+            "diamonds",
+            "clubs",
+            "spades"
+        ],
+        "values": [
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "J",
+            "Q",
+            "K",
+            "A"
+        ]
+    },
+    "hands": [
+        {
+            "name": "High Card",
+            "ranking": 1,
+            "rule": "The player with the highest card wins."
+        },
+        {
+            "name": "One Pair",
+            "ranking": 2,
+            "rule": "The player with one pair of cards with the same value wins."
+        },
+        {
+            "name": "Two Pairs",
+            "ranking": 3,
+            "rule": "The player with two pairs of cards with the same value wins."
+        },
+        {
+            "name": "Three of a Kind",
+            "ranking": 4,
+            "rule": "The player with three cards of the same value wins."
+        },
+        {
+            "name": "Straight",
+            "ranking": 5,
+            "rule": "The player with a sequence of five cards in a row wins."
+        },
+        {
+            "name": "Flush",
+            "ranking": 6,
+            "rule": "The player with five cards of the same suit wins."
+        },
+        {
+            "name": "Full House",
+            "ranking": 7,
+            "rule": "The player with three of a kind and a pair wins."
+        },
+        {
+            "name": "Four of a Kind",
+            "ranking": 8,
+            "rule": "The player with four cards of the same value wins."
+        },
+        {
+            "name": "Straight Flush",
+            "ranking": 9,
+            "rule": "The player with a sequence of five cards in a row, all of the same suit, wins."
+        },
+        {
+            "name": "Royal Flush",
+            "ranking": 10,
+            "rule": "The player with a straight flush consisting of the Ace, King, Queen, Jack and Ten wins."
+        }
+    ],
+    "gameplay": {
+        "phases": [
+            {
+                "name": "Dealing",
+                "order": 1,
+                "rule": "The dealer deals five cards to each player. The remaining deck is set aside."
+            },
+            {
+                "name": "Betting",
+                "order": 2,
+                "rule": "Each player may choose to bet, call or fold. This continues until all players have called or the pot has been won."
+            },
+            {
+                "name": "Showdown",
+                "order": 3,
+                "rule": "The remaining players reveal their hands. The hand with the highest ranking wins the pot."
+            }
+        ]
+    }
+}
